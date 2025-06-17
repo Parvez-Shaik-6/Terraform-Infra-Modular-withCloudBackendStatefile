@@ -1,0 +1,20 @@
+cidr = "10.0.0.0/16"
+pub_cidr = "10.0.1.0/24"
+pub_cidr1 = "10.0.2.0/24"
+priv_cidr = "10.0.3.0/24"
+priv_cidr1 = "10.0.4.0/24"
+availability_zone_sub ="us-east-1a"
+availability_zone_sub1 ="us-east-1b"
+keyname = "myKey"
+ami = "ami-084568db4383264d4"
+instance_type = "t2.micro"
+instancename = "testkaro"
+usernm = "yoyo"
+rds_name = "rdsrds"
+allocated_gb = 20
+db_identify = "mysql"
+instance_cls = "db.t3.micro"
+pass = "Myboicoolhaiapan"
+bucketName = "my-bucket-my-my-wish001"
+
+##sample values to get started feel free to change accordingly

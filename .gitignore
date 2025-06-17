@@ -1,0 +1,28 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Terraform variables files (can include secrets)
+# *.tfvars --commenting out cause its a open source project and to let others know about entire structure
+# *.tfvars.json --commenting out cause its a open source project and to let others know about entire structure  -- in prod not recommended
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive files
+.terraform.tfstate.backup
+.terraform.lock.hcl
+
+# IDE/editor-specific
+.vscode/
+.idea/
+.DS_Store
